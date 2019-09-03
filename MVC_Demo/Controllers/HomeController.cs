@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MVC_Demo.Models;
 
@@ -28,6 +24,7 @@ namespace MVC_Demo.Controllers
 
             return View();
         }
+
 
         public IActionResult Privacy()
         {
