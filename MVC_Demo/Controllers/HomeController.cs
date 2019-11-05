@@ -16,6 +16,13 @@ namespace MVC_Demo.Controllers
             return View();
         }
 
+        public IActionResult MVC()
+        {
+            var model = new MVCModel();
+            model.Hello = "Hello World";
+            return View(model);
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
