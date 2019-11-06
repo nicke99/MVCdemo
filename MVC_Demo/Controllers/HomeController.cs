@@ -37,6 +37,11 @@ namespace MVC_Demo.Controllers
             return View();
         }
 
+        public IActionResult SmartUI()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
