@@ -21,6 +21,34 @@
   <defs
      id="defs2">
     <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1465"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1463"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path855"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
        inkscape:isstock="true"
        style="overflow:visible;"
        id="marker5017"
@@ -115,7 +143,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="519.62735"
+     inkscape:cx="162.62735"
      inkscape:cy="735.19823"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -123,8 +151,8 @@
      inkscape:window-width="1280"
      inkscape:window-height="755"
      inkscape:window-x="0"
-     inkscape:window-y="5"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -151,9 +179,10 @@
      style="display:inline">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 145.52083,54.112501 -0.52916,24.341666"
+       d="M 121.17916,36.650001 90.487503,37.179167"
        id="path996"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <ellipse
        id="path10"
        cx="52.387501"
@@ -197,9 +226,13 @@
        sodipodi:insensitive="true"
        inkscape:label="text4583"><tspan
          sodipodi:role="line"
-         id="tspan945"
+         id="tspan851"
          x="118.26878"
-         y="101.7375">CONTROLLER</tspan></text>
+         y="101.7375">PRESENTER</tspan><tspan
+         sodipodi:role="line"
+         id="tspan853"
+         x="118.26878"
+         y="114.96667"></tspan></text>
     <path
        style="fill:#00ff00;stroke-width:0.26458332"
        d="M 21.03371,37.429143 V 23.538517 H 51.989959 82.946207 V 37.429143 51.319768 H 51.989959 21.03371 Z"
@@ -219,22 +252,19 @@
     <path
        inkscape:connector-curvature="0"
        id="path1312"
-       d="M 101.15253,81.072583 76.810867,60.991668"
-       style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1316)"
+       d="M 85.062874,61.903101 104.64205,78.307268"
+       style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1316);marker-start:url(#Arrow1Lstart)"
        inkscape:transform-center-x="7.0161956"
-       inkscape:transform-center-y="1.3408656" />
+       inkscape:transform-center-y="1.3408656"
+       sodipodi:nodetypes="cc" />
     <path
        inkscape:transform-center-y="7.1364836"
        inkscape:transform-center-x="0.3090071"
-       style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5011)"
-       d="M 101.38057,99.572039 76.238874,118.64178"
+       style="fill:none;stroke:#000000;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5011);marker-start:url(#marker1465)"
+       d="M 75.451403,119.68037 103.22637,101.70845"
        id="path5007"
-       inkscape:connector-curvature="0" />
-    <path
        inkscape:connector-curvature="0"
-       id="path5013"
-       d="M 49.252714,102.83813 49.110788,61.498847"
-       style="fill:none;stroke:#000000;stroke-width:0.85415781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5017)" />
+       sodipodi:nodetypes="cc" />
   </g>
   <ellipse
      style="display:inline;fill:#000000;stroke-width:0.26458332"

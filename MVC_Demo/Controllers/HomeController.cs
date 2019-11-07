@@ -23,6 +23,11 @@ namespace MVC_Demo.Controllers
             return View(model);
         }
 
+        public IActionResult MVP()
+        { 
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
