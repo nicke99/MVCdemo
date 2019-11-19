@@ -28,6 +28,11 @@ namespace MVC_Demo.Controllers
             return View();
         }
 
+        public IActionResult Fat()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
