@@ -11,11 +11,6 @@ namespace MVC_Demo.Controllers
             return View();
         }
 
-        public IActionResult Wikkipedia()
-        {
-            return View();
-        }
-
         public IActionResult MVC()
         {
             var model = new MVCModel();
@@ -24,7 +19,7 @@ namespace MVC_Demo.Controllers
         }
 
         public IActionResult MVP()
-        { 
+        {
             return View();
         }
 
@@ -48,12 +43,6 @@ namespace MVC_Demo.Controllers
         }
 
         public IActionResult SmartUI()
-        {
-            return View();
-        }
-
-
-        public IActionResult Privacy()
         {
             return View();
         }
