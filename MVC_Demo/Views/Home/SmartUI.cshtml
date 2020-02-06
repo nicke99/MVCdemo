@@ -3,21 +3,18 @@
 *@
 @{
 }
-
 <script>
-function blinker() {
-	$('.blinking').fadeOut(500);
-	$('.blinking').fadeIn(500);
-}
-setInterval(blinker, 500);
+    function blinker() {
+        $('.blinking').fadeOut(500);
+        $('.blinking').fadeIn(500);
+    }
+    setInterval(blinker, 500);
 </script>
-
 <input type="hidden" value="MVC" id='prev'>
 <input type="hidden" value="MVP" id='next'>
 
-
-<div style="font-size:10vw;text-align:center;color: red;" class="blinking">
+<div style="font-size:10vw;text-align:center;color: red;">
     Smart UI<br />
-    is an<br/>
+    is an<br />
     anti-pattern
 </div>
